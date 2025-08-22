@@ -1,0 +1,804 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: start;
+    margin: 0 auto;
+    width: 80vw;
+    height: 100%;
+    z-index: 10;
+    gap: 38em;
+}
+
+.leftnav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    width: 30%;
+    gap: 3em;
+
+
+}
+
+.rightnav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    width: 28%;
+    gap: 1.5em;
+
+}
+
+.navcontainer {
+    display: flex;
+    height: 4em;
+
+}
+
+.logoimageadjust {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+#logoimageadjustbig {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoimageadjustbig img {
+    height: 50%;
+
+}
+
+.logoimageadjust img {
+    height: 40%;
+}
+
+#asf {
+    height: 30%;
+
+    font-size: 80%;
+}
+
+.qwerty {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.bannerimage {
+    height: 18em;
+    width: 100%;
+    position: absolute;
+
+}
+
+.bannerimage img {
+    height: 100%;
+    width: 100%;
+}
+
+.imagesection {
+    height: 55vh;
+    position: relative;
+}
+
+.bannertext {
+    position: absolute;
+    color: white;
+    width: 20%;
+    top: 5em;
+    left: 10%;
+}
+
+.bannersection2 {
+    z-index: 100;
+    top: 90%;
+    left: 50%;
+    position: absolute;
+}
+
+.bannersection2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 8em;
+    width: 80%;
+    margin: 0 auto;
+    z-index: 100;
+    background-color: white;
+    top: 13em;
+    left: 10em;
+    border-radius: 20px;
+    padding-bottom: 2em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.qwertyy {
+    width: 98%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: .5em;
+    height: 70%;
+}
+
+.qwertyy1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 100%;
+}
+
+.from {
+    width: 30%;
+    border: 1px solid grey;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-right: none;
+}
+
+.to {
+    width: 30%;
+    border: 1px solid grey;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: none;
+}
+
+.calender {
+    width: 40%;
+    border: 1px solid grey;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+
+}
+
+.qwertyy2 {
+    width: 25%;
+    border-radius: 1em;
+    border: 1px solid grey;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calender button {
+    height: 50%;
+    width: 20%;
+    border-radius: 50px;
+    background-color: pink;
+}
+
+.women {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.bannerbutton {
+    position: absolute;
+    left: 40%;
+    width: 20em;
+    top: 20em;
+    height: 4em;
+    background-color: red;
+    z-index: 1000;
+    border-radius: 50px;
+
+}
+
+.bannerbutton button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #d63941;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    z-index: 100;
+    left: 0px;
+    z-index: 100;
+}
+
+.bannerbutton img {
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    z-index: 10000;
+}
+
+.traincontainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.traincontainer1 {
+    display: flex;
+    gap: 1em;
+}
+
+#trainhead {
+    font-size: 1.5em;
+}
+
+.greytext {
+    color: grey;
+}
+
+.festive {
+    display: flex;
+    gap: 4px;
+    width: 40%;
+
+}
+
+.festive2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 1em;
+    padding-bottom: 20px;
+
+
+}
+
+.festive3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 1em;
+    padding-bottom: 20px;
+}
+
+.greentext {
+    color: green;
+}
+
+.qwertyuiop {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    width: 55%;
+    height: 100%;
+    padding: 10px;
+}
+
+.qwertyuiop2 {
+    width: 45%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    padding-right: 20px;
+}
+
+.traincontainer2 {
+    width: 100%;
+    height: 10em;
+    display: flex;
+    justify-content: start;
+    gap: 2em;
+    background-color: aliceblue;
+
+}
+
+.trainbutton {
+    width: 40%;
+    height: 20%;
+    background-color: pink;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.trainbutton img {
+    height: 100%;
+}
+
+.width {
+    width: 100%;
+    background-color: #adf2b3;
+    margin-top: 2em;
+}
+
+.aasdf {
+    width: 40%;
+    margin: 0 auto;
+
+    display: flex;
+
+}
+
+.greentexttext {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5em;
+}
+
+.greentextimage {
+    width: 40%;
+}
+
+.trainhead1 {
+    font-size: 1.5em;
+}
+
+.greytext {
+    color: rgb(58, 58, 58);
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    row-gap: 1em;
+    height: 20em;
+    padding-top: 2em;
+
+}
+
+.titleforoffers {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titleforoffersleft {
+    width: 20%;
+    font: 600;
+    font-size: 1.5em;
+}
+
+.titleforoffersright {
+    width: 6%;
+}
+
+.offerbutton {
+    width: 15%;
+    display: flex;
+    justify-content: start;
+    height: 2.5em;
+    align-items: center;
+    gap: 1em;
+}
+
+.offerbutton1 {
+    background-color: pink;
+    height: 80%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5em;
+}
+
+.offerbutton2 {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5em;
+    width: 20%;
+    height: 80%;
+}
+
+.offerbutton3 {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5em;
+    width: 20%;
+    height: 80%;
+}
+
+.cardcontainer {
+    height: 10em;
+    display: flex;
+    gap: 1em;
+}
+
+.card1 {
+    height: 100%;
+    width: 25%;
+    background-image: url("Assets/296x200.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+    border-radius: 1em;
+}
+
+.cardclass1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: .5em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cardclass2 {
+    display: flex;
+
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cardtext {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.busbutton {
+    background-color: grey;
+    color: white;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    border-radius: .5em;
+}
+
+.Redbutton {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    border-radius: .5em;
+    align-items: center;
+}
+
+.card2 {
+    height: 100%;
+    width: 25%;
+    background-image: url("Assets/Android-iOS.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+    border-radius: 1em;
+}
+
+.card3 {
+    height: 100%;
+    width: 25%;
+    background-image: url("Assets/sampleimage1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+    border-radius: 1em;
+}
+
+.card4 {
+    height: 100%;
+    width: 25%;
+    background-image: url("Assets/sampleimage1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+    border-radius: 1em;
+}
+
+.Redbutton1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: .5em;
+    align-items: center;
+}
+
+.Redbutton img {
+    height: 80%;
+
+}
+
+.Redbutton1 img {
+    height: 80%;
+
+}
+
+#bodertext {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.bodertext1 {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.newimagescontainer {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+
+}
+
+.newimages {
+    width: 100%;
+}
+
+.imagediv {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.newimages img {
+    width: 100%;
+}
+
+.testimonial {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: space-evenly;
+    height: 20em;
+
+}
+
+.testimonialcardcontainer {
+    display: flex;
+    width: 50%;
+    gap: 1em;
+}
+
+.testimonialcard1container {
+    width: 33%;
+
+    border: #d6ded6 solid .5px;
+    border-radius: 1em;
+    height: 10em;
+}
+
+.testimonialcard1 {
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.testimonialcard2 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    border: #adf2b3 solid 2px;
+}
+
+.testimonialcard3 {
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    border: #adf2b3 solid 2px;
+}
+
+.getappcontainer {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.getapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 12em;
+
+}
+
+.getapptitle {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.getappcard {
+    display: flex;
+    align-items: center;
+    height: 6em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    justify-content: center;
+    gap: 35em;
+}
+
+.getappcardleft img {
+    height: 5em;
+}
+
+.getappcardleft {
+    display: flex;
+    height: 100%;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.getappcardright {
+    width: 15em;
+
+    display: flex;
+    justify-content: center;
+    height: 1.5em;
+    align-items: center;
+    border-radius: 1em;
+    background-color: #fed9d5;
+}
+
+.FAQcontainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+details {
+    display: flex;
+    flex-direction: column;
+    height: ;
+
+
+}
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+footer {
+    padding-top: 3em;
+    margin-top: 3em;
+    background-color: rgb(235, 241, 247);
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.mainfooter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerbaby {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.footerbelow {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2em;
+}
+
+.footerbelowimage {
+    height: 2em;
+}
+
+.footerbelowimage img {
+    height: 100%;
+}
+
+.kuchtobhi {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.finalfooter {
+    display: flex;
+    height: 3em;
+
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.finalfooterright {
+    height: 100%;
+    display: flex;
+    gap: 1em;
+}
+
+.finalfooterright img {
+    height: 80%;
+}
+
+.finalfooterleft {
+    display: flex;
+    align-items: center;
+}
+
+.onlinebus {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.onlinebushead {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+ul {
+    width: 90%;
+    margin: 0 auto;
+}
